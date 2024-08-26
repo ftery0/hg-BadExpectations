@@ -54,6 +54,7 @@
 
 ## 시작하기
 > https://portal.azure.com/ 에 접속해 로그인을 진행하고 왼쪽 상단의 리소스 만들기 버튼을 클릭해 Azure Database for MySQL를 검색하여 누르고 만들기를 클릭한 후 유연한 서버를 만드는 것을 선택한다.
+> ![image](https://github.com/user-attachments/assets/3fb4a8c2-6fc9-4a90-a0ca-3e362622e169)
 >
 ><img width="498" alt="스크린샷 2024-08-26 오후 4 58 58" src="https://github.com/user-attachments/assets/50bb8783-7850-4c0e-ac3f-14edbe3d6570">
 > 
@@ -87,7 +88,8 @@
 > azd pipeline config 를 입력하고 첫번째 선택지에서 n을 선택합니다
 > 
 > gh auth login을 입력하여 깃허브 로그인을 진행하고 다시 커맨드 창으로 돌아와서
-```gh secret set DB_PASSWORD --body "<DB_PASSWORD>"
+```
+gh secret set DB_PASSWORD --body "<DB_PASSWORD>"
 gh secret set DB_URL --body "<DB_URL>"
 gh secret set DB_USERNAME --body "<DB_USERNAME>"
 gh secret set DOCKER_PASSWORD --body "<DOCKER_PASSWORD>"
