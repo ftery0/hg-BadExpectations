@@ -58,7 +58,7 @@
 >
 ><img width="498" alt="스크린샷 2024-08-26 오후 4 58 58" src="https://github.com/user-attachments/assets/50bb8783-7850-4c0e-ac3f-14edbe3d6570">
 > 
-> 그 후, 리소스 그룹과 서버이름을 입력하고 관리자 이름 암호를 입력한다.
+> 그 후, 리소스 그룹과 서버이름을 입력하고 관리자 이름을 입력하고 암호를 자유롭게 입력한다.
 >
 ><img width="729" alt="스크린샷 2024-08-26 오후 4 04 32" src="https://github.com/user-attachments/assets/a9e100dd-4b43-4e23-9a6e-b678b300ad49">
 > 
@@ -71,13 +71,13 @@
 > 
 > 오른쪽 상단의 Fork버튼을 눌러 Copy the main branch only 항목을 선택 취소한 후, Create fork 버튼을 눌러 fork를 한다.
 > 
-> fork한 레포지토리로 이동하여 초록색 < >code 버튼을 클릭한다. 그 후, https://github.com/dongchandev/hg-BadExpectations.git을 복사한다.
+> fork한 레포지토리로 이동하여 초록색 < >code 버튼을 클릭한다. 그 후, https 칸을 클릭하여 https://github.com/dongchandev/hg-BadExpectations.git을 복사한다.
 > 
-> 컴퓨터에 임의의 폴더 하나를 만들고, 터미널을 접속하여 앞서 만든 폴더로 경로를 변경하고 git init을 입력한다. 그 후, 복사한 https://github.com/dongchandev/hg-BadExpectations.git를 통해 git remote add origin https://github.com/dongchandev/hg-BadExpectations.git을 적어 원격 브랜치와 연결한다.
+> 컴퓨터에 임의의 폴더 하나를 만들고, 윈도우의 경우 하단의 돋보기 모양 아이콘을 클릭하여 cmd를 치고 맥의 경우 command+space를 동시에 눌러 터미널을 검색해 작업터미널을 접속하여 앞서 만든 폴더를 윈도우의 경우 shift + 우클릭하여 경로를 복사하고 맥의 경우 우클릭을 통해 정보보기를 클릭하여 경로를 복사하고 cd + / 를 한 후 cd + 복사한 경로를 입력해 git init을 입력한다. 그 후, 복사한 https://github.com/dongchandev/hg-BadExpectations.git를 통해 git remote add origin https://github.com/dongchandev/hg-BadExpectations.git을 적어 원격 브랜치와 연결한다.
 > 
 > git pull origin backend,git checkout backend 를 차례대로 입력한다.
 > 
-> 도커 실행하기
+> 도커 데스크탑을 실행하여 도커 실행하기
 > 
 > curl -fsSL https://aka.ms/install-azd.sh | bash, azd auth login을 차례대로 입력한다.
 > 
